@@ -1,0 +1,23 @@
+{
+  "name": "unit-test",
+  "version": "1.0.0",
+  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
+  "main": "test1.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haroldmud/unit-test/issues"
+  },
+  "homepage": "https://github.com/haroldmud/unit-test#readme",
+  "devDependencies": {
+    "jest": "^28.0.3"
+  }
+}
