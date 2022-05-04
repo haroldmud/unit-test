@@ -1,4 +1,4 @@
-const Calculation = require('./test3')
+const Calculation = require('./test3');
 
 const calculation = new Calculation();
 
@@ -56,7 +56,6 @@ describe('These are tests for Multiply Method', () => {
   test('Multiplication for 12 & 5', () => {
     expect(calculation.multiply(5, 12)).toBe(60);
   });
-
 
   test('Multiplication for 2 & 6', () => {
     expect(calculation.multiply(2, 6)).toBe(48);// Fail Test

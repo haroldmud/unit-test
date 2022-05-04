@@ -1,8 +1,7 @@
-
 const capitalLetter = require('./test4');
 
 describe('These are tests for capitalLetter function', () => {
-  it('"harold" capitalLetter' , () => {
+  it('"harold" capitalLetter', () => {
     expect(capitalLetter('harold')).toMatch('Harold');
   });
 
@@ -11,7 +10,7 @@ describe('These are tests for capitalLetter function', () => {
   });
 
   it('Empty String capitalLetter ', () => {
-    expect( capitalLetter('')).toThrowError('This is a failed test');// Fail Test
+    expect(capitalLetter('')).toThrowError('This is a failed test');// Fail Test
   });
 
   it('Number capitalLetter ', () => {
